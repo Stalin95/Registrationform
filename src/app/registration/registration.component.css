@@ -1,0 +1,27 @@
+
+
+.backgroundanimation{
+    background-image:url("/assets/landing-bg.jpg") ;
+    background-position:0 0;
+    background-repeat:repeat;
+    --webkit-animation:slidedownscroll 30s linear infinite;
+    animation:slidedownscroll 30s linear infinite;
+    background-size:auto;
+  }
+  @-webkit-keyframes slidedownscroll{
+    0%{
+      background-position:0 0;
+    }
+    100%{
+      background-position:-2000px 2000px;
+    }
+  }
+  @-keyframes slidedownscroll{
+    0%{
+      background-position:0 0;
+    }
+    100%{
+      background-position:-2000px 2000px;
+    }
+  }
+ 
